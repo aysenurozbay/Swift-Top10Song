@@ -11,7 +11,7 @@ import SwiftUI
 struct Favourite10YoutubeVideosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VideoListView()
         }
     }
 }

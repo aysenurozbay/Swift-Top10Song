@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F569E7FB295E1296006043CF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569E7FA295E1296006043CF /* Video.swift */; };
+		F569E7FD295E1B27006043CF /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569E7FC295E1B27006043CF /* VideoDetailView.swift */; };
 		F5CAA5D8295E123F00A172F0 /* Favourite10YoutubeVideosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CAA5D7295E123F00A172F0 /* Favourite10YoutubeVideosApp.swift */; };
-		F5CAA5DA295E123F00A172F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CAA5D9295E123F00A172F0 /* ContentView.swift */; };
+		F5CAA5DA295E123F00A172F0 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CAA5D9295E123F00A172F0 /* VideoListView.swift */; };
 		F5CAA5DC295E123F00A172F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CAA5DB295E123F00A172F0 /* Assets.xcassets */; };
 		F5CAA5E0295E123F00A172F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CAA5DF295E123F00A172F0 /* Preview Assets.xcassets */; };
 		F5CAA5EA295E123F00A172F0 /* Favourite10YoutubeVideosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CAA5E9295E123F00A172F0 /* Favourite10YoutubeVideosTests.swift */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F569E7FA295E1296006043CF /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		F569E7FC295E1B27006043CF /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 		F5CAA5D4295E123F00A172F0 /* Favourite10YoutubeVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Favourite10YoutubeVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CAA5D7295E123F00A172F0 /* Favourite10YoutubeVideosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite10YoutubeVideosApp.swift; sourceTree = "<group>"; };
-		F5CAA5D9295E123F00A172F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5CAA5D9295E123F00A172F0 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		F5CAA5DB295E123F00A172F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5CAA5DD295E123F00A172F0 /* Favourite10YoutubeVideos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Favourite10YoutubeVideos.entitlements; sourceTree = "<group>"; };
 		F5CAA5DF295E123F00A172F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,8 +99,10 @@
 		F5CAA5D6295E123F00A172F0 /* Favourite10YoutubeVideos */ = {
 			isa = PBXGroup;
 			children = (
+				F569E7FA295E1296006043CF /* Video.swift */,
 				F5CAA5D7295E123F00A172F0 /* Favourite10YoutubeVideosApp.swift */,
-				F5CAA5D9295E123F00A172F0 /* ContentView.swift */,
+				F5CAA5D9295E123F00A172F0 /* VideoListView.swift */,
+				F569E7FC295E1B27006043CF /* VideoDetailView.swift */,
 				F5CAA5DB295E123F00A172F0 /* Assets.xcassets */,
 				F5CAA5DD295E123F00A172F0 /* Favourite10YoutubeVideos.entitlements */,
 				F5CAA5DE295E123F00A172F0 /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5CAA5DA295E123F00A172F0 /* ContentView.swift in Sources */,
+				F5CAA5DA295E123F00A172F0 /* VideoListView.swift in Sources */,
+				F569E7FD295E1B27006043CF /* VideoDetailView.swift in Sources */,
+				F569E7FB295E1296006043CF /* Video.swift in Sources */,
 				F5CAA5D8295E123F00A172F0 /* Favourite10YoutubeVideosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
